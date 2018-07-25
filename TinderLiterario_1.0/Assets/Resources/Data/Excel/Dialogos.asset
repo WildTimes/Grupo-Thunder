@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b24574b467d05ac49aa22512aa47fa13, type: 3}
+  m_Name: Dialogos
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Resources/Data/Excel/DialogosEXCEL2.xls
+  WorksheetName: Dialogos
+  dataArray:
+  - frases_player:
+    - "Ol\xE1, Tudo bem?"
+    - Eai, Tudo bem?
+    - Faalaa, Tudo bem?
+    respostas_friend:
+    - "Ol\xE1,como vai?.Tudo bem, com com voc\xEA?"
+    - "Eai,como vai?.Tudo bem, com com voc\xEA?"
+    - "Faalaa,como vai?.Tudo bem, com com voc\xEA?"
+    linhainicio: 2
+  - frases_player:
+    - Estou bem!
+    - Estou mais ou menos
+    - To meio bosta
+    respostas_friend:
+    - "\xF3timo!, tamb\xE9m estou bem."
+    - "eu tamb\xE9m, estou mais ou menos."
+    - tambem, to meio bosta
+    linhainicio: 3
+  - frases_player:
+    - "Ol\xE1, Manda foto de agora ?"
+    - Eai, Rola fotinha?
+    - Faalaa, deixa ver esse rostinho lindo!
+    respostas_friend:
+    - sim,#profile
+    - rola,@profile1-rudiculo
+    - ta bom,%profile2-Fernandinho
+    linhainicio: 1
